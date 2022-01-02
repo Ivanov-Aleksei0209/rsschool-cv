@@ -132,3 +132,61 @@ h2 {
     margin-inline-end: 0px;
     font-weight: bold;
 }
+
+.main-content_container {
+    display: flex;
+}
+
+.aside {
+    width: 30%;
+    padding: 20px 0 0 30px;
+    background-color: #202026;
+    color: red;
+    display: flex;
+    flex-direction: column;
+}
+aside {
+    display: block;
+}
+section{
+    display: block;
+}
+
+.side_header {
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: red;
+}
+
+.divider_red {
+    background-color: red;
+    height: 2px;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.education_place {
+    margin-bottom: 20px;
+}
+.education_title {
+    font-size: 22px;
+    margin-bottom: 10px;
+    
+}
+.education_descr {
+    padding-left: 15px;
+    font-size: 18px;
+}
+.education_descr_commit {
+    padding-left: 15px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.side_link {
+    position: relative;
+    color: #ff0000;
+    margin-bottom: 5px;
+    transition: .25s color ease-in-out;
+    text-decoration: underline;
+}
