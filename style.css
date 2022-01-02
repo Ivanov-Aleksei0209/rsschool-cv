@@ -13,6 +13,9 @@ header {
     display: block;    
 }
 
+img {
+    border-style: none;
+}
 .container {
     margin: 0 auto;
     width: 1200px;
@@ -290,13 +293,50 @@ display: block;
     display: flex;
     align-self: center;
     width: 100%;
-    
-
 }
 pre {
     font-family: 'Courier New';
     font-size: 1em;
-    background-color: #808080;
+    background-color: grey;
     color: black;
 }
 
+.footer {
+    display:block;
+
+}
+.footer_container {
+    display: flex;
+    color: red;
+}
+.contacts {
+    width: 30%;
+    background-color: #202026;
+    padding: 0 0 0 30px;
+}
+
+.ciontacts_item {
+    padding-left: 15px;
+}
+.footer_content {
+    display: flex;
+    width: 70%;
+    height: 200px;
+    justify-content: space-around;
+    background-color: red;
+}
+.footer_item {
+    display: flex;
+    align-items: center;
+}
+.footer_image {
+    height: 120px;
+}
+.footer_date {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: black;
+}
