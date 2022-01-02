@@ -6,6 +6,9 @@ html {
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
 }
+body {
+    background-color: #111;
+}
 header {
     display: block;    
 }
@@ -103,6 +106,10 @@ a {
     font-size: 40px;
     margin: 0;
 }
+.header_title_link {
+    color: #202026;
+    font-weight: 600;
+}
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: inherit;
@@ -161,10 +168,13 @@ section{
 
 .divider_red {
     background-color: red;
-    height: 2px;
+    height: 3px;
     width: 100%;
     margin-bottom: 20px;
     margin-top: 10px;
+}
+.education {
+    margin-bottom: 48px;
 }
 .education_place {
     margin-bottom: 20px;
@@ -183,6 +193,45 @@ section{
     font-size: 14px;
     margin-bottom: 10px;
 }
+.work {
+    margin-bottom: 48px;
+}
+.skills {
+    margin-bottom: 48px;
+}
+.skills_list {
+    display:flex;
+    flex-direction: column;
+}
+.skills_item {
+    display: flex;
+    align-items: center;
+    min-height: 30px;
+    padding-left: 40px;
+    margin-bottom: 10px;
+    color: red;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: left center;
+}
+.skills_html {
+    background-image: url(icons/174854.png)
+}
+.skills_css {
+    background-image: url(icons/732190.png)
+}
+.skills_javascript {
+    background-image: url(icons/1199124.png)
+}
+.skills_github {
+    background-image: url(icons/25657.png)
+}
+.skills_c {
+    background-image: url(icons/1822877.png)
+}
+.skills_csharp {
+    background-image: url(icons/6132221.png)
+}
 .side_link {
     position: relative;
     color: #ff0000;
@@ -190,3 +239,64 @@ section{
     transition: .25s color ease-in-out;
     text-decoration: underline;
 }
+.main {
+    width: 70%;
+    padding: 20px 30px;
+    background-color: aquamarine;
+    color: black;
+}
+.main_header {
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: right;
+}
+.divider_black {
+    background-color: black;
+    height: 3px;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.main_descr {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.main_subheader {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.main_list {
+    margin: 0 0 10px 0;
+    padding: 10px 0 0 30px;
+    list-style: circle;
+}
+.main_item {
+    font-size: 18px;
+    margin: 10px 0;
+}
+article {
+display: block;
+}
+.code_example {
+    display: flex;
+    flex-direction: column;    
+}
+.code_example .pre {
+    margin: 0;
+    display: flex;
+    align-self: center;
+    width: 100%;
+    
+
+}
+pre {
+    font-family: 'Courier New';
+    font-size: 1em;
+    background-color: #808080;
+    color: black;
+}
+
