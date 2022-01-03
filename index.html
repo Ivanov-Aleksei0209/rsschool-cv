@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8" />
     <title>CV Ivanov Aleksei</title>
@@ -182,10 +182,8 @@ void main()
 	double x_begin;
 	double x_end;
 	double dx;
-	double a;
-	double b;
-	double y;
-
+	double a, b, y;
+	
 	printf("Введите начальное значение X:");
 	scanf_s("%lf", &x_begin);
 	printf("Введите конечное значение X:");
@@ -201,7 +199,7 @@ void main()
 	printf("    a = %8.3f; b = %8.3f         \n", a, b);
 	printf("--------------------------------------\n");
 	dx = (x_end - x_begin) / 10;
-	while (x_begin <= x_end)
+	while (x_begin &lt;= x_end)
 	{
 		y = (a * pow(log(x_begin), 2) / (b + sqrt(x_begin)));
 		printf("|    %8.3f     |     %8.3f     |\n", x_begin, y);
